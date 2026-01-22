@@ -1,5 +1,7 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+.claudecontext
+
 # dependencies
 node_modules/
 
@@ -30,8 +32,10 @@ yarn-error.*
 .DS_Store
 *.pem
 
-# local env files
-.env*.local
+# environment files (contain secrets)
+.env
+.env.*
+!.env.example
 
 # typescript
 *.tsbuildinfo

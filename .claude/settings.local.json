@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install @react-navigation/native @react-navigation/native-stack react-native-screens react-native-safe-area-context @supabase/supabase-js react-native-dotenv)",
+      "Bash(npx tsc:*)",
+      "Bash(npm install:*)",
+      "Bash(git -C /Users/work/code/pigeon_app log --oneline)",
+      "Bash(git -C /Users/work/code/pigeon_app status --short)",
+      "Bash(git -C /Users/work/code/pigeon_app diff --name-status HEAD)",
+      "Bash(tree:*)",
+      "Bash(pnpm install:*)",
+      "Bash(corepack enable:*)",
+      "Bash(corepack prepare:*)",
+      "Bash(test:*)",
+      "Bash(pnpm list:*)",
+      "Bash(pnpm exec expo:*)",
+      "Bash(pnpm --filter pigeon_app start:*)",
+      "Bash(ls:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm exec dotenv --help:*)",
+      "Bash(pnpm exec dotenv:*)",
+      "Bash(pnpm start:prod:*)",
+      "Bash(pkill:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill -9)",
+      "Bash(curl:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(pnpm remove:*)",
+      "Bash(pnpm typecheck:*)",
+      "Bash(pnpm lint:*)",
+      "Bash(pnpm ci:*)",
+      "Bash(pnpm check:*)"
+    ]
+  }
+}
